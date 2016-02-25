@@ -6,7 +6,7 @@ public static int findMin1(int a,int b){
 	if (a < b){
 		low = a;
 	}
-	else if(a > b){
+	else {
 		low = b;
 	}
 	return low;
@@ -17,7 +17,7 @@ public static int findMin2(int c, int d ,int e){
 	if(mm < c){
 		low = mm;
 	}
-		else if(mm > c){
+		else {
 			low = c;
 		}
 		return low;
@@ -29,7 +29,7 @@ public static int findMin3(int f, int g ,int h, int j){
 		if(mm < j){
 			low = mm;
 	}
-		else if(mm > j){
+		else {
 			low = j;
 		}
 		return low;
